@@ -49,3 +49,11 @@ class ISCopter:
 			if key == ord('q'):
 		        	done = True
 		    	sleep(0.1)
+
+	def stop(self):
+		curses.nocbreak()
+		self.stdscr.keypad(0)
+		curses.echo()
+		curses.curs_set(1)
+		self.stdscr.nodelay(0)
+		curses.endwin()
