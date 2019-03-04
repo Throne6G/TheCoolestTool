@@ -37,7 +37,7 @@ class ISCopter:
         	done = False
         	i = 0
         	while not(done):
-		    	self.win.addstr(0, 0, frames[i], curses.A_STANDOUT)
+		    	self.win.addstr(0, 0, is_transport[i], curses.A_STANDOUT)
 		    	self.win.addstr(10, 7, 'InfoSec', curses.A_STANDOUT)
 		    	self.win.bkgd(' ', curses.A_STANDOUT)
 		    	self.win.refresh()
@@ -57,3 +57,12 @@ class ISCopter:
 		curses.curs_set(1)
 		self.stdscr.nodelay(0)
 		curses.endwin()
+
+if __name__ == '__main__':
+	rjaka = RoflCopter()
+	try:
+		rjaka.main()
+		rjaka.stop()
+	except Exception:
+		rjaka.stop()
+		raise
