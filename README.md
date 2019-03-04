@@ -1,8 +1,8 @@
-# TheCoolesTool
+# TheCoolestTool
 
-## What is TheCoolesTool
+## What is TheCoolestTool
 
-TheCoolesTool is a realy cool tool for call information security if you have a cyber security trouble. So far, all we can do is draw a InfoSec helicopter, but we hope that with the help of the community we will be able to add an api call to call this information security department.
+TheCoolestTool is a realy cool tool for call information security if you have a cyber security trouble. So far, all we can do is draw a InfoSec helicopter, but we hope that with the help of the community we will be able to add an api call to call this information security department.
 
 ### Tech:
 ```
