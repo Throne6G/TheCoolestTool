@@ -34,21 +34,21 @@ class ISCopter:
 		self.win = curses.newwin(24, 80, 0, 0)
 
 	def main(self):
-        	done = False
-        	i = 0
-        	while not(done):
-		    	self.win.addstr(0, 0, is_transport[i], curses.A_STANDOUT)
-		    	self.win.addstr(10, 7, 'InfoSec', curses.A_STANDOUT)
-		    	self.win.bkgd(' ', curses.A_STANDOUT)
-		    	self.win.refresh()
+		done = False
+		i = 0
+		while not(done):
+			self.win.addstr(0, 0, is_transport[i], curses.A_STANDOUT)
+			self.win.addstr(10, 7, 'InfoSec on the way!', curses.A_STANDOUT)
+			self.win.bkgd(' ', curses.A_STANDOUT)
+			self.win.refresh()
 			if i == 0:
 				i = 1
 			elif i == 1:
 				i = 0 
 			key = self.stdscr.getch()
 			if key == ord('q'):
-		        	done = True
-		    	sleep(0.1)
+				done = True
+			sleep(0.1)
 
 	def stop(self):
 		curses.nocbreak()
@@ -59,7 +59,7 @@ class ISCopter:
 		curses.endwin()
 
 if __name__ == '__main__':
-	rjaka = RoflCopter()
+	rjaka = ISCopter()
 	try:
 		rjaka.main()
 		rjaka.stop()
