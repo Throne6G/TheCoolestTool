@@ -38,7 +38,7 @@ class ISCopter:
 		i = 0
 		while not(done):
 			self.win.addstr(0, 0, is_transport[i], curses.A_STANDOUT)
-			self.win.addstr(10, 7, 'InfoSec on the way!', curses.A_STANDOUT)
+			self.win.addstr(10, 7, 'InfoSec is on the way!', curses.A_STANDOUT)
 			self.win.bkgd(' ', curses.A_STANDOUT)
 			self.win.refresh()
 			if i == 0:
