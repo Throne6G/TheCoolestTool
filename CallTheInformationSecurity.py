@@ -1,5 +1,8 @@
 #Based on https://github.com/4Evergreen4/roflcopter/blob/master/roflcopter.py
 
+#TODO refactoctoring (because of strange variable names)
+#TODO add new module for calling IS team
+
 import curses
 from time import sleep
 
