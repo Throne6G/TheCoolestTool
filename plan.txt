@@ -1,5 +1,0 @@
-1. Write tool 								[complete]
-2. Add some docks (Contributing, code_of_conduct, etc)			[complete]
-3. Add .gitignore, and include this file in .gitignore   		[in progress]
-4. Publish news in press center (use Content:W^*iOwD&DU#uVtmf@T) 	[complete]
-5. Add new module							[in progress]
